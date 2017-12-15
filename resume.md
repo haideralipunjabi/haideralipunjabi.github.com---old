@@ -2,21 +2,22 @@
 
 # Haider Ali Punjabi
 **Contact:** [haideralipunjabi@hackesta.org](mailto:haideralipunjabi@hackesta.org)  
-**Website:** [hackesta.org](http://hackesta.org)  
+**Website:** [hackesta.org](http://haideralipunjabi.com)  
 **Facebook:** [haiderali176](https://facebook.com/haiderali176)  
 **Instagram:** [haideralipunjabi](https://instagram.com/haideralipunjabi)  
 **Github:** [haideralipunjabi](https://github.com/haideralipunjabi)  
 **500px:** [haideralipunjabi](https://500px.com/haideralipunjabi)
 
 ## Work:
-* [Four Seasons](http://fourseasonskashmir.com) - IT Partner (as [Hack-e-Sta](http://hackesta.org)) - (April 2017 - Current)  
+* [Hackesta](https://hackesta.org) - Head - (2015 - Current)
+* [Four Seasons](http://fourseasonskashmir.com) - IT Partner (as [Hackesta](http://hackesta.org)) - (April 2017 - Current)  
 * Co-Anchor at Quiz Time Doordarshan J&K (2015)
 * Started & Head of [Code Club TBMS](https://github.com/codeclubtbms) (2017)
 
 ## Programming  
 [Github Profile of Haider Ali Punjabi](https://github.com/haideralipunjabi)  
 Most of the work is done as/under the name [Hackesta](http://hackesta.org)  
-Details on most of the projects can be found [here](http://hackesta.org/projects.html)
+Details on most of the projects can be found [here](http://haideralipunjabi.com/projects.html)
 
 #### Technologies
 * C#
@@ -57,11 +58,10 @@ Details on most of the projects can be found [here](http://hackesta.org/projects
 * [p5-documentation](https://github.com/HackeSta/p5-documentation) -  A Javascript addon to add documentation features to your p5js sketch.  
 
 #### Minor Projects
-* [SQLtoHTML](http://hackesta.org/?id=5) - Python script to convert SQL tables to HTML tables - December 2016
-* [Hit By Notifier](http://hackesta.org/?id=2) - C# Tool for GTA SA:MP - October 2016
-* [Time Fetch API](http://hackesta.org/?id=1) - C# library to be used with GTA SA:MP - October 2016
-* [Anagram Box](http://hackesta.org/?id=3) - C# Custom Control, makes & display's Anagram's of input words - September 2016
-* [Engineer's Calculator](http://hackesta.org/?id=4) - C# Tool for a GTA SA:MP server - March 2015  
+* SQLtoHTML- Python script to convert SQL tables to HTML tables - December 2016
+* Hit By Notifier - C# Tool for GTA SA:MP - October 2016
+* Time Fetch API - C# library to be used with GTA SA:MP - October 2016
+* Anagram Box - C# Custom Control, makes & display's Anagram's of input words - September 2016
 
 
 #### Extra Projects
@@ -75,12 +75,14 @@ All the contributions can be seen on my [Github Profile](https://github.com/haid
 
 ### Websites
 ##### HTML/CSS/JS based static websites  
+
 * [Hackesta](https://hackesta.org) - August 2016
 * [Four Seasons](http://fourseasonskashmir.com) - April 2017
 * [Yousuf Naqshbandi](http://yousufnaqshbandi.com) - May 2017  
 * [Raja Aadam](http://rajaaadam.com) - July 2017
 * [TBMS Website(Demo)](https://tbms.hackesta.org) - August 2017
 * [Code Club TBMS](https://codeclub.hackesta.org) - August 2017
+* [Haider Ali Punjabi](https://haideralipunjabi.com) - December 2017
 
 
 #### Events
@@ -91,7 +93,7 @@ All the contributions can be seen on my [Github Profile](https://github.com/haid
 * [Code Club TBMS](https://codeclub.hackesta.org) - Started a school club for coders in [Tyndale Biscoe & Mallinson School](https://tbmes.org)  
 
 ## Photography
-[Online Photography Portfolio of Haider Ali Punjabi](http://hackesta.org/photography)  
+[Online Photography Portfolio of Haider Ali Punjabi](http://haideralipunjabi.com/photography)  
 [500px profile of Haider Ali Punjabi](https://500px.com/haideralipunjabi)  
 
 
