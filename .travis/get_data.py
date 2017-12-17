@@ -2,10 +2,22 @@ import urllib3.request, urllib.request
 import requests as req
 import os
 import json
+def testing():
+    url = "https://api.github.com/users/haideralipunjabi/repos"
+    response = req.get(url, auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
+
 def user_repos():
     url = "https://api.github.com/users/haideralipunjabi/repos"
     response = req.get(url, auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
-    print(response.text,file=open('data/user_repos.json',"w"))
+    data = json.loads(response.text)
+    for repo in data:
+        response = req.get(repo['contributors_url'], auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
+        rdata = json.loads(response.text)
+        for user in rdata:
+            if user['login'] == os.environ.get('GITHUB_USERNAME'):
+                repo['commits'] = user['contributions']
+
+    print(json.dumps(data),file=open('data/user_repos.json',"w"))
 
 def closed_projects():
     url = "https://hackesta.org/api/projects/?format=json"

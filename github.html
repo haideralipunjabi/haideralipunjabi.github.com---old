@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio of Haider Ali Punjabi. ">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript, Programming, Coding, C#, Java, Python, Code, Computers">
+  <meta name="author" content="Haider Ali Punjabi">
+  <title>Github - Haider Ali Punjabi</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/media/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/media/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/media/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/media/favicons/manifest.json?v=2">
+  <link rel="mask-icon" href="/assets/media/favicons/safari-pinned-tab.svg?v=2" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/media/favicons/favicon.ico?v=2">
+  <meta name="msapplication-config" content="/assets/media/favicons/browserconfig.xml?v=2">
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/materialize.css">
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/font-awesome.extension.css">
+<link rel="stylesheet" href="/assets/css/github-calendar-responsive.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <style media="screen">
+    .fa {
+      margin-right: 5px;
+    }
+    #calendar h2{
+      display: none;
+    }
+  </style>
+  <!-- Javascript -->
+
+    <script src="/assets/js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="/assets/js/jquery.ajaxq-0.0.1.js" charset="utf-8"></script>
+    <script src="/assets/js/materialize.min.js" charset="utf-8"></script>
+    <script src="/assets/js/github-calendar.min.js" charset="utf-8"></script>
+    <script src="/assets/js/jsmd.min.js" charset="utf-8"></script>
+    <script src="/assets/js/previewer.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div id="header">
+
+  </div>
+  <div class="container">
+    <div class="section white">
+      <h4 class="section-title"><span>My Github</span></h4>
+        <div class="row">
+          <div class="col offset-s1 s10 m6 l2">
+            <img id="github_profile_image" class="responsive-img" src="" alt="">
+          </div>
+          <div class="col s12 m6 l4">
+            <h5 id="github_username" class="center-align"><i class="fa fa-user"></i></h5>
+            <h5 id="github_repos" class="center-align"><i class="fa  fa-database "></i></h5>
+            <h5 class="center-align"><i class="fa fa-external-link"></i><a id="github_link" href="#">View Profile on Github</a></h5>
+          </div>
+          <div class="col l6">
+            <div id="calendar" class="hide-on-med-and-down">
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l4">
+            <h5>Repos per language</h5>
+            <canvas id="chart_rpl" width="100%"></canvas>
+          </div>
+          <div class="col s12 m12 l4">
+            <h5>Stars per language</h5>
+            <canvas id="chart_spl" width="100%"></canvas>
+          </div>
+          <div class="col s12 m12 l4">
+            <h5>Commits per language</h5>
+            <canvas id="chart_cpl" width="100%"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5>Commits per repo</h5>
+            <canvas id="chart_cpr" width="100%"></canvas>
+          </div>
+          <div class="col s12 m12 l6">
+            <h5>Stars per repo</h5>
+            <canvas id="chart_spr" width="100%"></canvas>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div id="footer">
+
+  </div>
+  <script src="/assets/js/Chart.bundle.min.js" charset="utf-8"></script>
+  <script src="/assets/js/Chart.min.js" charset="utf-8"></script>
+  <script src="/assets/js/palette.js" charset="utf-8"></script>
+  <script src="/assets/js/github.js" charset="utf-8"></script>
+
+</body>
+
+</html>
