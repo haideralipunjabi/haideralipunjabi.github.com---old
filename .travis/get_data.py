@@ -2,14 +2,14 @@ import urllib3.request, urllib.request
 import requests as req
 import os
 import json
-def testing():
-    url = "https://api.github.com/users/haideralipunjabi/repos"
-    response = req.get(url, auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
 
 def user_repos():
     url = "https://api.github.com/users/haideralipunjabi/repos"
+    url2 = "https://api.github.com/orgs/hackesta/repos"
     response = req.get(url, auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
+    response2 = req.get(url2, auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
     data = json.loads(response.text)
+    data = data + json.loads(response2.text)
     for repo in data:
         response = req.get(repo['contributors_url'], auth=(os.environ.get('GITHUB_USERNAME'), os.environ.get('GH_TOKEN')))
         rdata = json.loads(response.text)

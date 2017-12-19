@@ -1,5 +1,6 @@
 let json;
 let chartdata = {};
+let charts = [];
 let options = {
   legend: {
     position: "left",
@@ -49,30 +50,40 @@ loaddata = function() {
   let commitslangs = [];
   for (repo of json) {
     repo.language = ((repo.language == null) ? 'Other' : repo.language)
-    if (!repo.fork) {
+    repo.commits = ((repo.commits == undefined) ? 0 : repo.commits)
+    if (!repo.fork){
       if (!langs.includes(repo.language)) {
         langs.push(repo.language);
         nolangs.push(1);
         starslangs.push(repo.stargazers_count);
+
         commitslangs.push(repo.commits);
       } else {
         nolangs[langs.indexOf(repo.language)] += 1
         starslangs[langs.indexOf(repo.language)] += repo.stargazers_count;
         commitslangs[langs.indexOf(repo.language)] += repo.commits;
-
       }
-    }
+}
   }
-  let repos = [];
+  let starreposname = [];
   let starsrepos = [];
+  let commitreposname = [];
   let commitsrepos = [];
-  for (repo of json){
-    if(!repo.fork){
-      repos.push(repo.name)
+  if(!repo.fork){
+  for (repo of json.sort(starscomparator)){
+
+      starreposname.push(repo.name)
       starsrepos.push(repo.stargazers_count);
+  }
+  for (repo of json.sort(commitcomparator)){
+    if(repo.commits != 0 || repo.commits != undefined){
+
+      commitreposname.push(repo.name)
       commitsrepos.push(repo.commits);
     }
+
   }
+}
   chartdata['rpl'] = {
     labels: langs,
     datasets: [{
@@ -94,12 +105,13 @@ loaddata = function() {
     }]
   }
   chartdata['spr'] = {
-    labels: repos,
+
+    labels: starreposname.slice(0,7),
     datasets: [{
       label: 'Stars per repo',
-      data: starsrepos,
-      backgroundColor: loadcolors(repos.length, false),
-      borderColor: loadcolors(repos.length, true),
+      data: starsrepos.slice(0,7),
+      backgroundColor: loadcolors(7, false),
+      borderColor: loadcolors(7, true),
       borderWidth: 1
     }]
   }
@@ -114,12 +126,12 @@ loaddata = function() {
     }]
   }
   chartdata['cpr'] = {
-    labels: repos,
+    labels: commitreposname.slice(0,7),
     datasets: [{
       label: 'Commits per repo',
-      data: commitsrepos,
-      backgroundColor: loadcolors(repos.length, false),
-      borderColor: loadcolors(repos.length, true),
+      data: commitsrepos.slice(0,7),
+      backgroundColor: loadcolors(7, false),
+      borderColor: loadcolors(7, true),
       borderWidth: 1
     }]
   }
@@ -133,35 +145,43 @@ makecharts = function() {
   let cpl = $("#chart_cpl")[0];
   let cpr = $("#chart_cpr")[0];
 
-  let rpl_chart = new Chart(rpl, {
+  charts.push(new Chart(rpl, {
     type: 'doughnut',
     data: chartdata['rpl'],
     options: options
-  });
-  let spl_chart = new Chart(spl, {
+  }));
+  charts.push(new Chart(spl, {
     type: 'doughnut',
     data: chartdata['spl'],
     options: options
-  });
-  let spr_chart = new Chart(spr, {
-    type: 'doughnut',
-    data: chartdata['spr'],
-    options: options
-  });
-  let cpl_chart = new Chart(cpl, {
+  }));
+
+  charts.push(new Chart(cpl, {
     type: 'doughnut',
     data: chartdata['cpl'],
     options: options
-  });
-  let cpr_chart = new Chart(cpr, {
+  }));
+  charts.push(new Chart(spr, {
+    type: 'doughnut',
+    data: chartdata['spr'],
+    options: options
+  }));
+  charts.push(new Chart(cpr, {
     type: 'doughnut',
     data: chartdata['cpr'],
     options: options
-  });
+  }));
 
 };
 
-
+function starscomparator(a,b){
+  return b.stargazers_count - a.stargazers_count
+}
+function commitcomparator(a,b){
+  if(a.commits === undefined) return 1;
+  if(b.commits === undefined)return -1;
+  return b.commits - a.commits
+}
 
 jQuery(document).ready(function($) {
 
