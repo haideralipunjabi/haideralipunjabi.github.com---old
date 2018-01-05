@@ -29,6 +29,7 @@ Details on most of the projects can be found [here](http://haideralipunjabi.com/
   * jQuery
   * p5js
   * MaterializeCSS
+  * BulmaIO
   * Bootstrap
 * SQL  
 * Markdown
@@ -102,7 +103,7 @@ All the contributions can be seen on my [Github Profile](https://github.com/haid
 * Showcased photographs at an Art, Photography and Literature event **Clicks, Lines and Verses** at [Tyndale Biscoe and Mallinson School, Srinagar](http://tbmes.org/) in August 2015
 * Showcased photographs at an Art and Photography exhibition **Clicks & Strokes** at [Tyndale Biscoe and Mallinson School, Srinagar](http://tbmes.org/) in August 2017
 * Showcased photographs at a Photography exhibition organised under 'Valley Weekends' at Nigeen Club in December 2017
-
+* Showcased photographs at a Photography exhibition **FRAMES** at [Zero Bridge Fine-Dine Restaurant & Cafe](https://facebook.com/ZeroBridgeFineDine), in December 2017
 
 ## Education
 * [Tyndale Biscoe School](https://tbmes.org/) (2004 - 2017)
