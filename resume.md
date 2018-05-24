@@ -2,8 +2,9 @@
 
 # Haider Ali Punjabi
 **Contact:** [haideralipunjabi@hackesta.org](mailto:haideralipunjabi@hackesta.org)  
-**Website:** [hackesta.org](http://haideralipunjabi.com)  
+**Website:** [haideralipunjabi.com](http://haideralipunjabi.com), [hackesta.org](https://hackesta.org)  
 **Facebook:** [haiderali176](https://facebook.com/haiderali176)  
+**Twitter:** [HAliPunjabi](https://twitter.com/HAliPunjabi)  
 **Instagram:** [haideralipunjabi](https://instagram.com/haideralipunjabi)  
 **Github:** [haideralipunjabi](https://github.com/haideralipunjabi)  
 **500px:** [haideralipunjabi](https://500px.com/haideralipunjabi)
@@ -43,6 +44,8 @@ Details on most of the projects can be found [here](http://haideralipunjabi.com/
 * [Android Studio](https://developer.android.com/studio/)
 * [Travis CI](https://travis-ci.org)
 * [Netlify](https://netlify.com)  
+* [Python Anywhere](https://www.pythonanywhere.com/)
+
 #### APIs
 * [Facebook Graph API](https://developers.facebook.com/docs/graph-api/)
 * [Github API](https://developer.github.com)
@@ -110,6 +113,7 @@ All the contributions can be seen on my [Github Profile](https://github.com/haid
   * House Helper [Class 4th (2009), Class 6th (2011), Class 7th (2012), Class 8th (2013), Class 9th (2014), Class 11th(2016)]
   * House Captain [Class 5th (2010), Class 12th (2017)]
   * School Vice-Captain [Class 10th (2015)]
+* Integrated Master of Computer Applications - [Cluster University Srinagar](http://www.cusrinagar.edu.in/) (2018 - )
 
 ## Sports
 
