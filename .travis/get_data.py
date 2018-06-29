@@ -65,7 +65,7 @@ def fpx_photographs():
             photos.append(photo)
     photos.sort(key=lambda item:datetime.datetime.strptime(item['published'], "%a, %d %b %Y %H:%M:%S %z"), reverse=True)
     jsonData = json.dumps(photos)
-    print(jsonData,file=open('../data/fpx_photographs.json','w'))
+    print(jsonData,file=open('/data/fpx_photographs.json','w'))
 def fpx_user():
     userid = '8734325'
     url ="https://api.500px.com/v1/users/%s/?consumer_key=" + os.environ.get('FHPX_CON_KEY')
