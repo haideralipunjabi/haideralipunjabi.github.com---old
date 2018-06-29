@@ -52,7 +52,7 @@
   $("#footer").load("/footer.html");
   $(".container").append('<a style="float:right;" href="https://gitprint.com/HackeSta/hackesta.org/blob/master/resume.md?download" class="waves-effect waves-light btn deep-purple"><i class="fa fa-print"></i>Print Resume</a>');
 
-  $("markdown").load('https://raw.githubusercontent.com/haideralipunjabi/haideralipunjabi.github.com/master/resume.md', function(){
+  $("markdown").load('resume.md', function(){
     markdown(function(){
     $("#content strong").addClass("deep-purple-text text-darken-2");
     $("#content a").addClass("light-blue-text");

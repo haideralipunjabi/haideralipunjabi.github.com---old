@@ -107,12 +107,13 @@ All the contributions can be seen on my [Github Profile](https://github.com/haid
 * Showcased photographs at an Art and Photography exhibition **Clicks & Strokes** at [Tyndale Biscoe and Mallinson School, Srinagar](http://tbmes.org/) in August 2017
 * Showcased photographs at a Photography exhibition organised under 'Valley Weekends' at Nigeen Club in December 2017
 * Showcased photographs at a Photography exhibition **FRAMES** at [Zero Bridge Fine-Dine Restaurant & Cafe](https://facebook.com/ZeroBridgeFineDine), in December 2017  
-* Participated in 20 day Still Photography Workshop, organised by [Film & Television Institute of India](https://ftiindia.com) under Skilling India in Film & Television (SKIFT) at [Directorate of Information & Public Relations](http://www.jkdirinf.in/), Srinagar from 25th April to 14th May 2018
+* Participated in 20 day Still Photography Workshop, organised by [Film & Television Institute of India](https://ftiindia.com) under Skilling India in Film & Television (SKIFT) at [Directorate of Information & Public Relations](http://www.jkdirinf.in/), Srinagar from 25th April to 14th May 2018  
+
 ## Education
-* [Tyndale Biscoe School](https://tbmes.org/) (2004 - 2017)
-  * House Helper [Class 4th (2009), Class 6th (2011), Class 7th (2012), Class 8th (2013), Class 9th (2014), Class 11th(2016)]
-  * House Captain [Class 5th (2010), Class 12th (2017)]
-  * School Vice-Captain [Class 10th (2015)]
+- [Tyndale Biscoe School](https://tbmes.org/) (2004 - 2017)    
+    - House Helper [Class 4th (2009), Class 6th (2011), Class 7th (2012), Class 8th (2013), Class 9th (2014), Class 11th(2016)]  
+    - House Captain [Class 5th (2010), Class 12th (2017)]
+    - School Vice-Captain [Class 10th (2015)]
 * Integrated Master of Computer Applications - [Cluster University Srinagar](http://www.cusrinagar.edu.in/) (2018 - )
 
 ## Sports
