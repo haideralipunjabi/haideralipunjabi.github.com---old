@@ -74,10 +74,10 @@ def fpx_user():
 
 
 
-# user_repos()
-# closed_projects()
-# instagram()
-# hackesta_projects()
-# websites()
+user_repos()
+closed_projects()
+instagram()
+hackesta_projects()
+websites()
 fpx_photographs()
 # fpx_user()
