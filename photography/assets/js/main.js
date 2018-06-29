@@ -830,9 +830,9 @@ var main = (function($) {
 			crossDomain: true,
 	    dataType: 'json',
 	    success: function(json) {
-					$user = json.user;
-					$("#affection").append($user.affection);
-					$("#picture_count").append($user.photos_count);
+					// $user = json.user;
+					// $("#affection").append($user.affection);
+					// $("#picture_count").append($user.photos_count);
 					main.loadPhotos();
 	      }
 		});
@@ -845,9 +845,8 @@ var main = (function($) {
 	    crossDomain: true,
 	    dataType: 'json',
 	    success: function(json) {
-	      $(json.photos).each(function(index) {
-	        $("#thumbnails").append("<article><a class=\"thumbnail\" href=\"" +this.images[1].url +"\"500url=\"https://500px.com"+this.url +"\" exif_height=\""+this.height+"\" exif_width=\""+this.width+"\" exif_camera=\""+this.camera+"\" exif_lens=\""+this.lens+"\" exif_focal_length=\""+this.focal_length+"\" exif_shutter_speed=\""+this.shutter_speed+"\" exif_iso=\""+this.iso+"\" exif_aperture=\""+this.aperture+"\"><img src=\""+this.images[0].url+"\" alt=\""+this.name+"\" /></a><h2>"+this.name+"</h2></article>");
-
+	      $(json).each(function(index) {
+	        $("#thumbnails").append("<article><a class=\"thumbnail\" href=\"" +this.url +"\" 500url=\""+this.link + "\"> <img src=\""+this.url+"\" alt=\""+this.title+"\" ></img></a><h2>"+this.title+"</h2></article>");
 	      });
 				$("body").removeClass('loading')
 				$("body").removeClass('is-loading-0');

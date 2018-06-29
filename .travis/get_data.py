@@ -2,7 +2,7 @@ import urllib3.request, urllib.request
 import requests as req
 import os
 import json
-
+import feedparser
 def user_repos():
     url = "https://api.github.com/users/haideralipunjabi/repos"
     url2 = "https://api.github.com/orgs/hackesta/repos"
@@ -40,16 +40,31 @@ def websites():
     print(response.text,file=open('data/websites.json',"w"))
 
 def fpx_photographs():
-    userid = '8734325'
-    url = "https://api.500px.com/v1/photos?feature=user&user_id=%s&page=1&image_size[]=3&image_size[]=6&rpp=100&consumer_key=" + os.environ.get('FHPX_CON_KEY')
-    response = req.get(url % userid)
-    print(response.text,file=open('data/fpx_photographs.json','w'))
-
+    # userid = '8734325'
+    # url = "https://api.500px.com/v1/photos?feature=user&user_id=%s&page=1&image_size[]=3&image_size[]=6&rpp=100&consumer_key=" + os.environ.get('FHPX_CON_KEY')
+    # response = req.get(url % userid)
+    # print(response.text,file=open('data/fpx_photographs.json','w'))
+    url = "https://500px.com/haideralipunjabi/rss"
+    feed = feedparser.parse(url)
+    photos = []
+    for entry in feed.entries:
+        photo = {}
+        photo['title'] = entry.title
+        photo['link'] = entry.link
+        s = entry.summary_detail.value
+        start = '<img src="'
+        end = '"'
+        photo['url'] = s[s.find(start) + len(start):s.find(end, s.find(start) + len(start))]
+        photos.append(photo)
+    jsonData = json.dumps(photos)
+    print(jsonData,file=open('data/fpx_photographs.json','w'))
 def fpx_user():
     userid = '8734325'
     url ="https://api.500px.com/v1/users/%s/?consumer_key=" + os.environ.get('FHPX_CON_KEY')
     response = req.get(url % userid)
     print(response.text, file=open('data/fpx_user.json','w'))
+
+
 
 user_repos()
 closed_projects()
@@ -57,4 +72,4 @@ instagram()
 hackesta_projects()
 websites()
 fpx_photographs()
-fpx_user()
+# fpx_user()
