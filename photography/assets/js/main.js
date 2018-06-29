@@ -846,7 +846,7 @@ var main = (function($) {
 	    dataType: 'json',
 	    success: function(json) {
 	      $(json).each(function(index) {
-	        $("#thumbnails").append("<article><a class=\"thumbnail\" href=\"" +this.url +"\" 500url=\""+this.link + "\"> <img src=\""+this.url+"\" alt=\""+this.title+"\" ></img></a><h2>"+this.title+"</h2></article>");
+	        $("#thumbnails").append("<article><a class=\"thumbnail\" href=\"" +this.url +"\" 500url=\""+this.link + "\"> <img src=\""+this.thumbnail+"\" alt=\""+this.title+"\" ></img></a><h2>"+this.title+"</h2></article>");
 	      });
 				$("body").removeClass('loading')
 				$("body").removeClass('is-loading-0');
