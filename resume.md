@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/hackesta/hackesta.org/master/assets/media/profile.png" width="200px"/>
 
 # Haider Ali Punjabi
-**Contact:** [haideralipunjabi@hackesta.org](mailto:haideralipunjabi@hackesta.org), [me@haideralipunjabi.com](mailto:me@haideralipunjabi.com)
+**Contact:** [haideralipunjabi@hackesta.org](mailto:haideralipunjabi@hackesta.org), [me@haideralipunjabi.com](mailto:me@haideralipunjabi.com)  
 **Website:** [haideralipunjabi.com](http://haideralipunjabi.com), [hackesta.org](https://hackesta.org)  
 **Facebook:** [haiderali176](https://facebook.com/haiderali176)  
 **Twitter:** [HAliPunjabi](https://twitter.com/HAliPunjabi)  
