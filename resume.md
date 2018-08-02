@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/hackesta/hackesta.org/master/assets/media/profile.png" width="200px"/>
 
 # Haider Ali Punjabi
-**Contact:** [haideralipunjabi@hackesta.org](mailto:haideralipunjabi@hackesta.org)  
+**Contact:** [haideralipunjabi@hackesta.org](mailto:haideralipunjabi@hackesta.org), [me@haideralipunjabi.com](mailto:me@haideralipunjabi.com)
 **Website:** [haideralipunjabi.com](http://haideralipunjabi.com), [hackesta.org](https://hackesta.org)  
 **Facebook:** [haiderali176](https://facebook.com/haiderali176)  
 **Twitter:** [HAliPunjabi](https://twitter.com/HAliPunjabi)  
@@ -11,7 +11,7 @@
 
 ## Work:
 * [Hackesta](https://hackesta.org) - Head - (2015 - Current)
-* [Four Seasons](http://fourseasonskashmir.com) - IT Partner (as [Hackesta](http://hackesta.org)) - (April 2017 - Current)  
+* [Four Seasons](http://fourseasonskashmir.com) - IT Partner (as [Hackesta](http://hackesta.org)) - (April 2017 - October 2017)  
 * Co-Anchor at Quiz Time Doordarshan J&K (2015)
 * Started & Head of [Code Club TBMS](https://github.com/codeclubtbms) (2017)
 
@@ -95,6 +95,7 @@ All the contributions can be seen on my [Github Profile](https://github.com/haid
 
 #### Initiatives
 * [Code Club TBMS](https://codeclub.hackesta.org) - Started a school club for coders in [Tyndale Biscoe & Mallinson School](https://tbmes.org)  
+* Kashur Lugat - Social Media page, to promote Kashmiri language. Posts Kashmiri words, with English meanings. [Instagram](https://instagram.com/kashurlugat), [Twitter](https://twitter.com/KashurLugat), [Facebook](https://facebook.com/KashurLugat)  
 
 ## Photography
 [Online Photography Portfolio of Haider Ali Punjabi](http://haideralipunjabi.com/photography)  
