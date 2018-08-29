@@ -57,9 +57,10 @@ Details on most of the projects can be found [here](http://haideralipunjabi.com/
 * [Deviant Art API](https://www.deviantart.com/developers/)
 
 #### Major Projects
-* [KPC](http://hackesta.org/projects/kpc/) - An Android client for [Kashmir Photography Club](http://kashmirphotographyclub.com) - December 2016
-* [Evolve CP Calculator](http://hackesta.org/?id=6) - An Android tool for the game Pokemon GO - July 2016  
+* [KPC](https://play.google.com/store/apps/details?id=org.hackesta.kpcexplorer) - An Android client for [Kashmir Photography Club](http://kashmirphotographyclub.com) - December 2016
+* [Evolve CP Calculator](https://play.google.com/store/apps/details?id=com.hackesta.pokegocal) - An Android tool for the game Pokemon GO - July 2016  
 * [p5-documentation](https://github.com/HackeSta/p5-documentation) -  A Javascript addon to add documentation features to your p5js sketch.  
+* [Tweet2Pic](https://play.google.com/store/apps/details?id=org.hackesta.tweet2pic) - An Android app to share a Tweet as an image.
 
 #### Minor Projects
 * SQLtoHTML- Python script to convert SQL tables to HTML tables - December 2016
