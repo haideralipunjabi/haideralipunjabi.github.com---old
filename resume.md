@@ -61,6 +61,7 @@ Details on most of the projects can be found [here](http://haideralipunjabi.com/
 * [Evolve CP Calculator](https://play.google.com/store/apps/details?id=com.hackesta.pokegocal) - An Android tool for the game Pokemon GO - July 2016  
 * [p5-documentation](https://github.com/HackeSta/p5-documentation) -  A Javascript addon to add documentation features to your p5js sketch.  
 * [Tweet2Pic](https://play.google.com/store/apps/details?id=org.hackesta.tweet2pic) - An Android app to share a Tweet as an image.
+* [Kashmiri Stickers for Whatsapp](https://play.google.com/store/apps/details?id=org.hackesta.kashmiristickers) - Kashmiri Stickers for WhatsApp  
 
 #### Minor Projects
 * SQLtoHTML- Python script to convert SQL tables to HTML tables - December 2016
