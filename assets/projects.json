@@ -1,0 +1,83 @@
+
+{
+  "projects":[
+    {
+      "id":"timefetch",
+      "img":"media/default_thumbnail.png",
+      "link":"/projects/timefetch.html",
+      "title":"Time Fetch API",
+      "languages":"csharp",
+      "description":"C# SAMP Library",
+      "client":"C#"
+    },
+    {
+      "id":"hitbynotifier",
+      "img":"media/default_thumbnail.png",
+      "link":"/projects/hitbynotifier.html",
+      "title":"HitBy Notifier",
+      "languages":"csharp",
+      "description":"C# SAMP Library",
+      "client":"C#"
+    },
+    {
+      "id":"anagrambox",
+      "img":"media/default_thumbnail.png",
+      "link":"/projects/anagrambox.html",
+      "title":"Anagram Box",
+      "languages":"csharp",
+      "description":"Custom Control",
+      "client":"C#"
+    },
+    {
+      "id":"engcal",
+      "img":"media/default_thumbnail.png",
+      "link":"/projects/engcal.html",
+      "title":"Engineer's Calculator",
+      "languages":"csharp",
+      "description":"Tool for WSRPG",
+      "client":"C#"
+    },
+    {
+      "id":"sqltohtml",
+      "img":"media/default_thumbnail.png",
+      "link":"/projects/sqltohtml.html",
+      "title":"SQLtoHTML",
+      "languages":"python",
+      "description":"Convert SQL Tables to HTML",
+      "client":"Python"
+    },
+    {
+      "id":"EvolveCPCalc",
+      "img":"media/evolvecpcalc.png",
+      "link":"/projects/evolvecpcalc.html",
+      "title":"Evolve CP Calculator",
+      "languages":"java",
+      "description":"Calculate Pokemon's CP before evolving it",
+      "client":"Android"
+    },
+    {
+      "id":"KPC",
+      "img":"media/kpcexplorer.png",
+      "link":"/projects/kpc/",
+      "title":"KPC",
+      "languages":"java",
+      "description":"Beauty of Kashmir is just a tap away",
+      "client":"Android"
+    }
+
+  ],
+  "websites":[
+    {
+      "id":"FourSeasons",
+      "img":"http://fourseasonskashmir.com/assets/media/logo.png",
+      "link":"http://fourseasonskashmir.com",
+      "title":"Four Seasons"
+    },
+    {
+      "id":"YousufNaqshbandi",
+      "img":"/media/websites/yousufnaqshbandi.jpg",
+      "link":"http://yousufnaqshbandi.com",
+      "title":"Yousuf Naqshbandi"
+    }
+  ]
+}
