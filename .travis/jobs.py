@@ -4,7 +4,6 @@ import os
 import json
 import feedparser
 import datetime
-import markdown2
 from bs4 import BeautifulSoup as Soup
 
 
@@ -35,7 +34,7 @@ def fpx_photographs():
     if(photos.__len__()>0):
         photography.clear()
     for photo in photos:
-        html = Soup('<div class="col-2 col-4-medium col-6-small"><a href="%s" class="image fit"><img src="%s" alt="%s"></a></div>'%(photo['link'],photo['thumbnail'],photo['title']),"html.parser")
+        html = Soup('<div class="col-2 col-4-medium col-6-small"><a  class="image fit"><img image="%s" src="%s" alt="%s"></a></div>'%(photo['url'],photo['thumbnail'],photo['title']),"html.parser")
         photography.insert(0,html)
     print(index.prettify().replace('\\n','\n'),file=open("index.html",'w'))
 
